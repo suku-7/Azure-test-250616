@@ -42,8 +42,9 @@ az login --use-device-code
 1 + Enter
 ```
 7. 쿠버네틱스 로그인
+```
 az aks get-credentials --resource-group a071098-rsrcgrp --name a071098-aks
 
 kubectl get all
 kubectl get node
-
+```
